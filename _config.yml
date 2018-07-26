@@ -14,9 +14,9 @@ author-img: lucky_lee.JPG- # add your photo
 about-author: 我是一个iOS开发者，并且不断的学习中。 # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
+social-github: https://github.com/haiwei-Lee # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-email: haiwei_lee@sina.com # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
