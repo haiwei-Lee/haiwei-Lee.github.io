@@ -6,7 +6,9 @@ description: 写下的第一个blog。以此记录一段生活的开始。 # Add
 img: baishishan1.jpg  # Add image post (optional)
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+>*You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.*
+
+---
 
 >总是在一个不经意间突发出一个奇怪的想法，并为此乐此不疲。
 
