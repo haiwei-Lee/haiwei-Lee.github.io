@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "记录一段生活的开始--我的第一个blog"
+title: 记录一段生活的开始
 date: 2018-7-30 13:43:59 +0300
 description: 写下的第一个blog。以此记录一段生活的开始。 # Add post description (optional)
 img: baishishan1.jpg  # Add image post (optional)
