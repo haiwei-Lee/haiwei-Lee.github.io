@@ -12,7 +12,7 @@ img: wkwebview.jpg  # Add image post (optional)
 
     能说算不上什么，有本事就把你的代码给我看看
 
-#####使用背景
+##### 使用背景
 ---
 Xcode8发布以后，编译器开始不支持IOS7，所以很多应用在适配IOS10之后都不在适配IOS7了，其中包括了很多大公司，网易新闻，滴滴出行等。因此，我们公司的应用只是支持iOS9（含iOS9）以上。
 看了一下项目中使用Webview的地方并不统一，于是就萌生了WKWebView替换原来的UIWebView进行统一
