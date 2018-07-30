@@ -3,7 +3,7 @@ layout: post
 title: 项目中的WKWebView
 date: 2018-7-30 17:18:59 +0300
 description: 项目中使用了webview加载h5页面，并且需要Webview与JS交互。 # Add post description (optional)
-img: webview.png  # Add image post (optional)
+img: webview.jpg  # Add image post (optional)
 ---
 
     "Talk is cheap. Show me the code."
