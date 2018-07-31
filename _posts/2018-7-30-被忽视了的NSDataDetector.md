@@ -3,11 +3,10 @@ layout: post
 title: 被忽视了的NSDataDetector
 date: 2018-7-30 18:40:59 +0300
 description: 在Cocoa开发中，有一个简单的对于寻找数据的解决方案：NSDataDetector。 # Add post description (optional)
-img: baishishan1.jpg  # Add image post (optional)
+img: NSDataDetector.jpg  # Add image post (optional)
 ---
 
       done is better than perfect.
-
                     - facebook 的办公室标语
       完成比完美更好
 
@@ -18,8 +17,7 @@ img: baishishan1.jpg  # Add image post (optional)
 
 幸运的是，对于 Cocoa 开发者来说，有一个简单的解决方案：NSDataDetector。
 
-#### 关于NSDataDetector
-
+## 关于NSDataDetector
 NSDataDetector 是 NSRegularExpression 的子类，而不只是一个 ICU 的模式匹配，它可以检测半结构化的信息：日期，地址，链接，电话号码和交通信息。
 
 它以惊人的准确度完成这一切。NSDataDetector 可以匹配航班号，地址段，奇怪的格式化了的数字，甚至是相对的指示语，如 “下周六五点”。
@@ -28,28 +26,11 @@ NSDataDetector 是 NSRegularExpression 的子类，而不只是一个 ICU 的模
 
 NSDataDetector 对象用一个需要检查的信息的位掩码类型来初始化，然后传入一个需要匹配的字符串。像 NSRegularExpression 一样，在一个字符串中找到的每个匹配是用 NSTextCheckingResult 来表示的，它有诸如字符范围和匹配类型的详细信息。然而，NSDataDetector 的特定类型也可以包含元数据，如地址或日期组件。
 
-{% highlight ruby %}
+![I and My friends]({{site.baseurl}}/assets/img/NSDataDetector.jpg)
 
-  NSString * str = @"如果重置密码失败，400-800-2222请拨打400 500 5555客服热线：13800000000或者是(010)22222222还 可以拨打+86 17700000000以及其他的号码比如：8617700000000以及177-0000-0000和其他的样式177 0000 0000";
-
-  NSMutableAttributedString * attributr = [[NSMutableAttributedString alloc]initWithString:str];
-  NSError *error = NULL;
-  NSDataDetector *detector = [NSDataDetector dataDetectorWithTypes:NSTextCheckingTypePhoneNumber error:&error];
-  NSRange inputRange = NSMakeRange(0, [str length]);
-  NSArray *matches = [detector matchesInString:str options:0 range:inputRange];
-
-  for (NSTextCheckingResult * match in matches) {
-     if ([match resultType] == NSTextCheckingTypePhoneNumber){
-         NSRange matchRange = [match range];
-       }
-  }
-  
-{% endhighlight %}
 > 当初始化 NSDataDetector 的时候，确保只指定你感兴趣的类型。每当增加一个需要检查的类型，随着而来的是不小的性能损失为代价。
 
-
-### 数据检测器匹配类型
-
+## 数据检测器匹配类型
 NSDataDetector 的各种 NSTextCheckingTypes 匹配，及其相关属性表：
 
 | 类型                      | 属性                |
