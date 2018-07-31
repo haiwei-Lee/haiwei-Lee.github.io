@@ -30,7 +30,7 @@ NSDataDetector 对象用一个需要检查的信息的位掩码类型来初始�
 
 ![NSDataDetector print]({{site.baseurl}}/assets/img/NSDataDetector_print.jpg)
 
-当然你也可以结合 [YYKit](https://github.com/ibireme/YYKit) 中的`YYLabel`进行文本的高亮展示，并且添加点击事件：
+当然你也可以结合 [YYKit](https://github.com/ibireme/YYKit) 中的`YYLabel`进行文本的高亮展示，并且添加点击事件(一下是我项目中需要匹配文本中的手机号码)：
 
 ![NSDataDetector image]({{site.baseurl}}/assets/img/NSDataDetector2.jpg)
 
@@ -65,7 +65,5 @@ NSDataDetector 的各种 NSTextCheckingTypes 匹配，及其相关属性表：
 
 
 参考自： https://developer.apple.com/documentation/foundation/nsregularexpression
-
-        https://developer.apple.com/documentation/foundation/nstextcheckingresult
-
-        https://nshipster.com/nsdatadetector
+https://developer.apple.com/documentation/foundation/nstextcheckingresult
+https://nshipster.com/nsdatadetector
