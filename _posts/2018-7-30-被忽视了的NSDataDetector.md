@@ -11,7 +11,7 @@ img: facebook1.jpg  # Add image post (optional)
       完成比完美更好
 
 ### keywords
-  *NSDataDetector NSRegularExpression NSTextCheckingResult*
+  *`NSDataDetector` `NSRegularExpression` `NSTextCheckingResult`*
 
 > 机器只用二进制说话，而人类的语言却充满了谜语，真假，和省略。
 
