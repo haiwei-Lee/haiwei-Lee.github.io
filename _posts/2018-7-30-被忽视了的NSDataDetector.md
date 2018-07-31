@@ -7,7 +7,7 @@ img: facebook1.jpg  # Add image post (optional)
 ---
 
       done is better than perfect.
-                    - facebook 的办公室标语
+                    - Facebook's office(Facebook办公室标语)
       完成比完美更好
 
 > 机器只用二进制说话，而人类的语言却充满了谜语，真假，和省略。
