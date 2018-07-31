@@ -28,7 +28,7 @@ layout: main
           <a href="http://service.weibo.com/share/share.php?url={{ site.url }}{{ page.url}}" rel="nofollow" target="_blank">Sina weibo</a>
           <a href="https://api.addthis.com/oexchange/0.8/forward/wechat/offer?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank">微信</a>
           <a href="http://connect.qq.com/widget/shareqq/index.html?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank">QQ好友</a>
-          <a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank">QQ空间</a>
+          <a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{ site.url }}{{ page.url }}" desc={{page.description}} rel="nofollow" target="_blank">QQ空间</a>
         </div>
         <div class="page-tag">
           {% for tag in page.tags %}
