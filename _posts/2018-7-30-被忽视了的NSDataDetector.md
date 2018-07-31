@@ -13,6 +13,7 @@ img: facebook1.jpg  # Add image post (optional)
 ### keywords
   *`NSDataDetector` `NSRegularExpression` `NSTextCheckingResult`*
 
+
 > 机器只用二进制说话，而人类的语言却充满了谜语，真假，和省略。
 
 在日常开发场景中经常会遇到，在一段文本中检测一些半结构化的信息，比如：日期，地址，链接，电话号码和交通信息。
