@@ -30,7 +30,7 @@ NSDataDetector 对象用一个需要检查的信息的位掩码类型来初始�
 
 ![NSDataDetector print]({{site.baseurl}}/assets/img/NSDataDetector_print.jpg)
 
-当然你也可以结合 [YYKit](https://github.com/ibireme/YYKit) 中的`YYLabel`进行文本的高亮展示，并且添加点击事件(一下是我项目中需要匹配文本中的手机号码)：
+当然你也可以结合 [YYKit](https://github.com/ibireme/YYKit) 中的`YYLabel`进行文本的高亮展示，并且添加点击事件(以下是我项目中需要匹配文本中的手机号码)：
 
 ![NSDataDetector image]({{site.baseurl}}/assets/img/NSDataDetector2.jpg)
 
@@ -58,7 +58,7 @@ NSDataDetector 的各种 NSTextCheckingTypes 匹配，及其相关属性表：
 | NSTextCheckingTypeTransitInformation | 1.NSTextCheckingAirlineKey      |
 |                                      | 2.NSTextCheckingFlightKey       |
 
-其他的一些注意事项可以自行参考 [Mattt](https://nshipster.com/nsdatadetector/) 的文章自行进行查阅。
+其他的一些注意事项可以自行参考 [Mattt](https://nshipster.com/authors/mattt/) 的文章[NSDataDetector](https://nshipster.com/nsdatadetector)自行进行查阅。
 
 好了，大家可以进行尝试一下，在你的应用程序里充分利用 `NSDataDetector` 解锁那些已经隐藏在众目睽睽下的结构化信息吧。
 
