@@ -10,10 +10,13 @@ img: facebook1.jpg  # Add image post (optional)
                     - Facebook's office(Facebook办公室标语)
       完成比完美更好
 
+### keywords
+  *NSDataDetector NSRegularExpression NSTextCheckingResult*
+
 > 机器只用二进制说话，而人类的语言却充满了谜语，真假，和省略。
 
 在日常开发场景中经常会遇到，在一段文本中检测一些半结构化的信息，比如：日期，地址，链接，电话号码和交通信息。
-如果这些需求在一个项目中出现，在不知道NSDataDetector这个类之前，可能要头皮发麻，之后开始自己编制一些正则，再加上国际化的需求，可能对编制好的正则需要大量的单元测试用例的介入。（估计好多小盆友要被这些东西整自闭了...）
+如果这些需求在一个项目中出现，在不知道`NSDataDetector`这个类之前，可能要头皮发麻，之后开始自己编制一些正则，再加上国际化的需求，可能对编制好的正则需要大量的单元测试用例的介入。（估计好多小盆友要被这些东西整自闭了...）
 
 幸运的是，对于 Cocoa 开发者来说，有一个简单的解决方案：`NSDataDetector`。
 
