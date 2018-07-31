@@ -13,7 +13,6 @@ img: facebook1.jpg  # Add image post (optional)
 ### keywords
   *`NSDataDetector` `NSRegularExpression` `NSTextCheckingResult`*
 
-
 > 机器只用二进制说话，而人类的语言却充满了谜语，真假，和省略。
 
 在日常开发场景中经常会遇到，在一段文本中检测一些半结构化的信息，比如：日期，地址，链接，电话号码和交通信息。
@@ -65,7 +64,6 @@ NSDataDetector 的各种 NSTextCheckingTypes 匹配，及其相关属性表：
 其他的一些注意事项可以自行参考 [Mattt](https://nshipster.com/authors/mattt/) 的文章[NSDataDetector](https://nshipster.com/nsdatadetector)自行进行查阅。
 
 好了，大家可以进行尝试一下，在你的应用程序里充分利用 `NSDataDetector` 解锁那些已经隐藏在众目睽睽下的结构化信息吧。
-
 
 
 参考自： [https://developer.apple.com/documentation/foundation/nsregularexpression](https://developer.apple.com/documentation/foundation/nsregularexpression)
