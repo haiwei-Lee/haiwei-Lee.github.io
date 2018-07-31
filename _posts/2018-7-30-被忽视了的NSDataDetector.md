@@ -65,4 +65,7 @@ NSDataDetector 的各种 NSTextCheckingTypes 匹配，及其相关属性表：
 
 
 参考自： https://developer.apple.com/documentation/foundation/nsregularexpression
+
+        https://developer.apple.com/documentation/foundation/nstextcheckingresult
+        
         https://nshipster.com/nsdatadetector
