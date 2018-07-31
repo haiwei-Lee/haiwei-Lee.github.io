@@ -3,7 +3,7 @@ layout: post
 title: 被忽视了的NSDataDetector
 date: 2018-7-30 18:40:59 +0300
 description: 在Cocoa开发中，有一个简单的对于寻找数据的解决方案：NSDataDetector。 # Add post description (optional)
-img: NSDataDetector.jpg  # Add image post (optional)
+img: facebook1.jpg  # Add image post (optional)
 ---
 
       done is better than perfect.
